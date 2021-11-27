@@ -1,4 +1,4 @@
-const { generateUsers } = require('./users')
+const { generateUsers } = require('.')
 
 it("generates as many users as indicated", () => {
   const actual = generateUsers(100).length;
