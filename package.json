@@ -1,0 +1,33 @@
+{
+  "name": "hygen-jsconfmx-2021",
+  "version": "1.0.0",
+  "description": "Demo for a talk on JS Conf MX 2021 about code generators",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ederchrono/hygen-jsconfmx-2021.git"
+  },
+  "keywords": [
+    "hygen",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Eder Díaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ederchrono/hygen-jsconfmx-2021/issues"
+  },
+  "homepage": "https://github.com/ederchrono/hygen-jsconfmx-2021#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "faker": "^5.5.3"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1",
+    "nodemon": "^2.0.15"
+  }
+}
