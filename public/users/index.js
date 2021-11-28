@@ -3,7 +3,7 @@ const $ = (selector) => {
 }
 
 // load users from /api/users and puts 10 in the table of index.html
-fetch('/api/users')
+fetch('/api/user')
   .then(response => {
     return response.json()
   }).then(data => {

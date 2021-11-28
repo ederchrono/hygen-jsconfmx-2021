@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "start": "nodemon server.js",
-    "new:page": "hygen new page"
+    "new:page": "hygen new page",
+    "new:api": "hygen new api"
   },
   "repository": {
     "type": "git",

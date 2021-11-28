@@ -1,8 +1,10 @@
 const express = require('express')
-const users = require('./users')
+// hygen:api-import-injector
+const user = require('./user')
 
 const router = express.Router()
 
-router.use('/users', users)
+// hygen:api-endpoint-injector
+router.use('/user', user)
 
 module.exports = router
