@@ -6,5 +6,10 @@ module.exports = [
     name: 'name',
     message: 'New page name (no spaces)',
     validate: notEmpty
+  },
+  {
+    type: 'confirm',
+    name: 'fetch',
+    message: 'Will this page fetch data?',
   }
 ]
