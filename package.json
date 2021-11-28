@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "jest",
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "new:page": "hygen new page"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
     "faker": "^5.5.3"
   },
   "devDependencies": {
+    "hygen": "^6.1.0",
     "jest": "^27.3.1",
     "nodemon": "^2.0.15"
   }
